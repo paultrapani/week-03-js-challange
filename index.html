@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>My JavaScript Password Generator</title>
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+    </head>
+    <body>
+    
+        <!-- [START]: MAIN WRAPPER CONTAINER -->
+        <div class="app-wrapper">
+            <header>
+                <h1>The <span id="super">< Super unCool /></span> <em>Password Generator</em></h1>
+            </header>
+
+            <!-- [START]: INNER APP FORM CONTAINER -->
+            <div class="app-cont">
+                <div class="app-header">
+                    <h2>Choose a Super unCool but SECURE Password Below:</h2>
+                </div>
+
+                <div class="app-body">
+                    <textarea readonly id="password" placeholder="Your Secure Password!" aria-label="Generated Password"></textarea>
+                </div>
+
+                <div class="app-footer">
+                    <button id="generate" class="gen_btn">Generate Password</button>
+                </div>
+            </div>
+            <!-- [END]: INNER APP FORM CONTAINER -->
+
+        </div>
+        <!-- [END]: MAIN WRAPPER CONTAINER -->
+
+        <!-- ((( Password Generator Script ))) -->
+        <script src="./assets/js/script.js"></script>
+
+    </body>
+</html>

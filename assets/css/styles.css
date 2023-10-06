@@ -1,0 +1,154 @@
+/*---------- PWRD GENERATOR STYLE SHEET -------------*/
+
+:root {
+    --sucpg-blue:  blue;
+    --sucpg-gold: gold;
+    --sucpg-red: red;
+    --sucpg-white: white;
+    --sucpg-gray: gray;
+}
+
+*,
+*::before,
+*::after {
+     box-sizing: border-box;
+}
+
+html,
+body,
+.app-wrapper {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--sucpg-red);
+}
+
+.app-wrapper {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header {
+    color: var(--sucpg-white);
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+header #super { 
+    color: var(--sucpg-blue); 
+    letter-spacing: 5px;
+}
+
+.app-cont {
+    background-color: var(--sucpg-blue);
+    border-radius: 8px;
+    box-shadow: rgba(255, 255, 255, 0.8) 0px 0px 12px 10px;
+    color: var(--sucpg-white);
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 30px 40px;
+    border: 15px solid var(--sucpg-gold);
+}
+
+.app-header::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    background: var(--sucpg-white);
+    color: var(--sucpg-red)
+    height: 2px;
+}
+
+.app-body {
+    min-height: 100px;
+}
+
+.app-footer {
+    text-align: center;
+}
+
+.app-footer::before {
+    content: " ";
+    display: block;
+    width: 100%;
+    background: var(--sucpg-white);
+    height: 2px;
+}
+
+.app-footer::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.gen_btn {
+    border: 3px solid var(--sucpg-red);
+    background-color: var(--sucpg-gold);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+    color: var(--sucpg-blue);
+    display: inline-block;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 22px;
+    margin: 40px 16px 16px 20px;
+    padding: 14px 34px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button[disabled] {
+    cursor: default;
+    background: var(--sucpg-gray);
+}
+
+.float-right {
+      float: right;
+}
+
+#password {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    display: block;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 85px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px dashed var(--sucpg-red);
+    border-radius: 6px;
+    resize: none;
+    overflow: hidden;
+}
+
+@media (max-width: 690px) {
+    .gen_btn {
+        font-size: 1rem;
+        margin: 16px 0px 0px 0px;
+        padding: 10px 15px;
+  }
+
+  #password {
+        font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+    .gen_btn {
+        font-size: 0.8rem;
+  }
+}
