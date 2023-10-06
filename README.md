@@ -1,4 +1,4 @@
-# Week 3 - JavaScript Challange
+# Week 3 - JavaScript Challenge
 
 Write a Password Generator in JavaScript
 
@@ -9,7 +9,7 @@ The purpose of this repo project is to create an application that enables employ
 
 
 ## Git Hub Repository URL 🔗
-https://github.com/paultrapani/week-03-js-challange
+https://github.com/paultrapani/week-03-js-challange/
 
 
 ## Git Pages Deployment URL 🔗
