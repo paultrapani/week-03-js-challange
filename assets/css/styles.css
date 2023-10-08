@@ -62,7 +62,7 @@ header #super {
     display: block;
     width: 100%;
     background: var(--sucpg-white);
-    color: var(--sucpg-red)
+    color: var(--sucpg-red);
     height: 2px;
 }
 
